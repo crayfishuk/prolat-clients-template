@@ -1,0 +1,1322 @@
+/* *****************************************************
+
+    ** Custom Stylesheet **
+
+    Any custom styling you want to apply should be
+    defined here.
+
+***************************************************** */
+
+/* Override the WHMCS default box-sizing for our heading only */
+div#whmcsheader * {
+    box-sizing: content-box;
+}
+
+/* Override the home-banner bg */
+
+section#home-banner {
+    background-color: #7ba6bf;
+}
+
+
+/* Override the navbar CSS */
+
+.navbar-main, .navbar-main li.account {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#022293+0,021b5b+91,011175+100 */
+    background: #022293; /* Old browsers */
+    background: -moz-linear-gradient(top, #022293 0%, #021b5b 91%, #011175 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #022293 0%,#021b5b 91%,#011175 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #022293 0%,#021b5b 91%,#011175 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.navbar-main .navbar-nav>.active>a, .navbar-main .navbar-nav>.active>a:focus, .navbar-main .navbar-nav>.active>a:hover, .navbar-main .navbar-nav>.open>a, .navbar-main .navbar-nav>.open>a:focus, .navbar-main .navbar-nav>.open>a:hover, .navbar-main .navbar-nav>li>a:focus, .navbar-main .navbar-nav>li>a:hover
+{
+    background-color: #fff;
+    color: #333;
+}
+
+
+    /* From template.css */
+
+/*@import "base.css"; */
+div.moduletable-postit {
+    padding-left: 15px;
+}
+div.module-testimonial {
+    float: left;
+    overflow: hidden;
+    padding: 15px 20px 15px 5px;
+}
+div.module-testimonial div {
+    background: url("../images/testimonial-top.png") no-repeat scroll left top transparent;
+    padding: 20px 0 0;
+}
+div.module-testimonial div div {
+    background: url("../images/testimonial-bg.jpg") no-repeat scroll left top white;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 0;
+}
+div.module-testimonial div div div {
+    background: url("../images/testimonial-corner-quote.png") no-repeat scroll right bottom transparent;
+    display: block;
+    font-size: 10px;
+    padding: 5px;
+    text-indent: -22px;
+}
+div.module-testimonial ul {
+    font-size: 10px;
+    list-style: none outside none;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+div.module-testimonial li {
+    padding-bottom: 30px;
+}
+div.module-testimonial li a {
+    font-size: 110%;
+    padding-left: 22px;
+}
+a.readmore, a.newstitle {
+    display: block;
+}
+a.readmore {
+    font-size: 90%;
+    font-style: italic;
+    padding: 4px 0 8px;
+}
+#main-content h3.ui-accordion-header {
+    font-size: 1em;
+    margin-bottom: 2px;
+    padding: 2px 0 2px 40px;
+}
+h3.ui-accordion-header:hover {
+    color: orange;
+}
+.ui-accordion .ui-accordion-li-fix {
+    padding-left: 0;
+}
+div#postm-inner .module {
+    background: url("../images/blank.jpg") no-repeat scroll 0 0 transparent;
+}
+#search {
+    display: block;
+    float: right;
+    height: 30px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+div.rokajaxsearch {
+    margin-top: 9px;
+}
+#tabsJ {
+    float: left;
+    font-family: Verdana;
+    font-size: 14px;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    height: 45px;
+    line-height: normal;
+    width: 100%;
+}
+#tabsJ div.module {
+    height: 24px;
+    margin: 0;
+    padding: 14px 10px 0 5px;
+}
+#tabsK {
+    float: left;
+    font-family: Verdana;
+    font-size: 14px;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    height: 26px;
+    line-height: normal;
+    width: 100%;
+}
+#tabsK div.module {
+    height: 25px;
+    margin: 0;
+}
+#tabsJ ul, #tabsK ul {
+    list-style: none outside none;
+}
+#tabsJ li, #tabsK li {
+    display: inline;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+}
+#tabsJ a, #tabsK a, #tabsJ a:link, #tabsJ a:visited, #tabsK a:link, #tabsK a:visited {
+    float: left;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+#tabsJ a {
+    background: url("../images/tableft.png") no-repeat scroll left top transparent;
+}
+#tabsK a {
+    background: url("../images/subtableft.png") no-repeat scroll left top transparent;
+}
+#tabsJ a span, #tabsK a span {
+    display: block;
+    float: left;
+    padding: 5px 9px 4px 3px;
+}
+#tabsJ a span {
+    height: 18px;
+}
+#tabsK a span {
+    height: 17px;
+}
+#tabsJ a span {
+    background: url("../images/tabright.png") no-repeat scroll right top transparent;
+    color: #000000;
+}
+#tabsK a span {
+    background: url("../images/subtabright.png") no-repeat scroll right top transparent;
+    color: #FFFFFF;
+}
+#tabsJ a span, #tabsK a span {
+    float: none;
+}
+#tabsJ a:hover span, #tabsK a:hover span {
+    color: orange;
+}
+#tabsJ #active a, #tabsK #active a {
+    background-position: 0 -72px;
+}
+#tabsJ #active a span, #tabsK #active a span {
+    background-position: 100% -72px;
+}
+#tabsJ #active a span {
+    color: #FFFFFF;
+}
+#tabsK #active a span {
+    color: #000000;
+}
+div#front-l {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#front-l div.module {
+    display: block;
+    float: left;
+    font-size: 110%;
+    width: 301px;
+}
+#front-l div.module div {
+}
+#front-l div.module div div {
+}
+#front-l div.module div div div {
+    background: none repeat scroll 0 0 #C7F3FE;
+    margin: 10px;
+    padding: 1px 10px;
+}
+#front-l b {
+    color: blue;
+}
+#front-l p {
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#front-r {
+    padding-left: 50px;
+}
+a.buttonlink {
+    background: url("../images/buttonlinkr.gif") no-repeat scroll right top transparent;
+    color: #000000;
+    display: block;
+    float: right;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    height: 21px;
+    margin-right: 6px;
+    padding-right: 6px;
+    text-decoration: none;
+}
+a.buttonlink span {
+    background: url("../images/buttonlinkl.gif") no-repeat scroll 0 0 transparent;
+    display: block;
+    line-height: 18px;
+    padding: 2px 2px 8px 8px;
+}
+a.buttonlink:hover span {
+    text-decoration: underline;
+}
+/*table.table {*/
+    /*margin: 10px;*/
+/*}*/
+/*table.table, table.table th, table.table td {*/
+    /*border: 1px solid #D4E0EE;*/
+    /*border-collapse: collapse;*/
+    /*color: #555555;*/
+/*}*/
+/*table.table caption {*/
+    /*font-size: 150%;*/
+    /*font-weight: bold;*/
+    /*margin: 5px;*/
+/*}*/
+/*table.table td, table.table th {*/
+    /*padding: 4px;*/
+/*}*/
+/*table.table thead th {*/
+    /*background: none repeat scroll 0 0 #E6EDF5;*/
+    /*color: #4F76A3;*/
+    /*font-size: 100% !important;*/
+    /*text-align: center;*/
+/*}*/
+/*table.table tbody th {*/
+    /*font-weight: bold;*/
+/*}*/
+/*table.table tbody tr {*/
+    /*background: none repeat scroll 0 0 #FCFDFE;*/
+/*}*/
+/*table.table tbody tr.odd {*/
+    /*background: none repeat scroll 0 0 #F7F9FC;*/
+/*}*/
+/*table.table a:link {*/
+    /*color: #718ABE;*/
+    /*text-decoration: none;*/
+/*}*/
+/*table.table a:visited {*/
+    /*color: #718ABE;*/
+    /*text-decoration: none;*/
+/*}*/
+/*table.table a:hover {*/
+    /*color: #718ABE;*/
+    /*text-decoration: underline !important;*/
+/*}*/
+/*table.table tfoot th, table.table tfoot td {*/
+    /*font-size: 85%;*/
+/*}*/
+
+
+div.rounded {
+    background-color: #C7F3FE;
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+    margin: 20px 10px;
+    padding: 10px;
+}
+.nobackground {
+    background-color: transparent !important;
+}
+.grey {
+    background-color: #ddd;
+}
+.grey-border {
+    border: 3px solid #ddd;
+}
+.blue {
+    background-color: #C7F3FE;
+}
+.blue-border {
+    border: 3px solid #207FEE;
+}
+.blue h1, .blue h2, .blue h3 {
+    color: #0049B7;
+}
+.orange {
+    background-color: #FFEFBA;
+}
+.orange-border {
+    border: 3px solid #FFB771;
+}
+.orange h1, .orange h2, .orange h3 {
+    color: #CE6028;
+}
+.rounded h1 {
+    font-size: 130%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.rounded h2 {
+    font-size: 120%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.rounded h3 {
+    font-size: 110%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.outline {
+    padding: 2px;
+}
+table.status {
+    margin-top: 0;
+    width: 100%;
+}
+.status tr {
+    margin-left: 40px;
+}
+.status td {
+    color: #444444;
+    font-family: tahoma,arial,helvetica;
+    font-size: 90%;
+    padding: 3px 8px 3px 5px;
+}
+.status td.statusleft {
+}
+.status td.statusright {
+    text-align: right;
+}
+#status_div {
+    margin: 0;
+    padding: 0;
+}
+#statuswrapper {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#statusbg {
+    background: none repeat scroll 0 0 white;
+    height: 96px;
+    margin: 0;
+    opacity: 0.5;
+    padding: 0;
+    position: relative;
+}
+#statusfg {
+    background: url("../images/statuscorner.gif") no-repeat scroll left bottom transparent;
+    height: 96px;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+h1, h2, h3, h4 {
+    color: #003399;
+    font-family: Arial,Helvetica,Sans Serif;
+    font-weight: bold;
+    margin: 0;
+    /*    padding: 12px 0 4px; */
+}
+h1 {
+    font-size: 1.5em;
+}
+.rounded h2 {
+    margin-top: 0;
+}
+h2 {
+    /*    font-size: 1.3em; whmcs */
+}
+h3 {
+    /*    font-size: 1.1em; whmcs */
+}
+h4 {
+    font-size: 1em;
+}
+p {
+    /*    line-height: 150%;
+        margin: 0;
+        padding-bottom: 0.75em;  All conflict with whmcs settings */
+}
+#feature ul.feature-list {
+    float: left;
+}
+.contentpaneopen ul.feature-list {
+}
+.contentpaneopen ul.feature-list li, #feature ul.feature-list li {
+    background: url("../images/list_checkbox.png") no-repeat scroll 10px 0 transparent;
+    display: block;
+    line-height: 26px;
+    padding-left: 46px;
+}
+.clr {
+    clear: both;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+}
+/*
+PROLATERAL - CONFLICT WITH WHMCS ul.nav
+
+ul.nav a:link, ul.nav a:hover, ul.nav a:visited {
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+}
+ul.nav {
+    font-size: 0.8em;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0 15px 0 0;
+}
+ul.nav li {
+    background-image: none;
+    border-right: 3px solid #196EAD;
+    float: left;
+    font-size: 11px;
+    line-height: 23px;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    white-space: nowrap;
+}
+ul.nav li a {
+    background: url("../images/taboff.jpg") no-repeat scroll left center transparent;
+    color: #FFFFFF;
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+    padding-left: 25px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+#buttons > ul.nav li a {
+    width: auto;
+}
+ul.nav li.active a {
+    background: url("../images/tabon.jpg") no-repeat scroll left center transparent;
+}
+ul.nav li a:hover {
+    color: orange;
+}
+*/
+#submenu a:link, ul#mainlevel a:hover, ul#mainlevel a:visited {
+    text-decoration: none;
+}
+#submenu {
+    font-size: 0.8em;
+    list-style: none outside none;
+    margin: 0;
+    padding-right: 15px;
+}
+#submenu li {
+    background-image: none;
+    float: left;
+    font-size: 11px;
+    line-height: 23px;
+    list-style: none outside none;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 9px;
+    white-space: nowrap;
+}
+#submenu li a {
+    color: #FFFFFF;
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+    padding-left: 13px;
+    padding-right: 8px;
+    text-decoration: none;
+}
+#submenu mainlevel li ul {
+    display: none;
+}
+#buttons > ul#mainlevel li a {
+    width: auto;
+}
+table.content_table {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+table.content_table td {
+    margin: 0;
+    padding: 0;
+}
+.bodysidebar {
+    border-right: 2px solid;
+    color: #0D2788;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.user1_inner {
+    border: 1px solid #CCCCCC;
+    float: none !important;
+    margin: 0;
+    padding: 2px;
+}
+.user2_inner {
+    border: 1px solid #CCCCCC;
+    float: none !important;
+    margin: 0;
+    padding: 2px;
+}
+table td.body_outer {
+    border: 1px solid #CCCCCC;
+    padding: 2px;
+}
+.maintitle {
+    color: #FFFFFF;
+    font-size: 40px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.error {
+    color: #CCCCCC;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.back_button {
+    border: 0 double #CCCCCC;
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 1px;
+    padding: 0 10px;
+    text-align: center;
+    width: auto;
+}
+.pagenav {
+    border: 0 double #CCCCCC;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 1px;
+    padding: 0 10px;
+    text-align: center;
+    width: auto;
+}
+.pagenavbar {
+    float: right;
+    margin-right: 10px;
+}
+#footer {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.contentpaneopen ul, #feature ul.feature-list {
+    padding-top: 10px;
+}
+.contentpaneopen li {
+    background-image: url("../images/bullet.png");
+    background-position: 10px 4px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    padding-top: 0;
+}
+#row1 li {
+    color: black;
+    list-style-position: inside;
+    list-style-type: disc;
+}
+#row2 li {
+    color: white;
+    list-style-position: inside;
+    list-style-type: disc;
+}
+td {
+    text-align: left;
+}
+.centerdiv {
+    margin: auto;
+    width: 954px;
+}
+#container-inner {
+    background: none repeat scroll 0 0 white;
+    text-align: left;
+    width: 954px;
+}
+#whmcsheader {
+    /*background: url("../images/rightlogo.jpg") repeat-x scroll left top #DCE6FF;*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dce6ff+0,dce6ff+92,d4e6ff+100 */
+    background: #dce6ff; /* Old browsers */
+    background: -moz-linear-gradient(top, #dce6ff 0%, #dce6ff 92%, #d4e6ff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #dce6ff 0%,#dce6ff 92%,#d4e6ff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #dce6ff 0%,#dce6ff 92%,#d4e6ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    margin: 0;
+}
+#row1 div.module, #row2 div.module, #main-left div.module, #main-content div.module, #main-right div.module {
+    display: block;
+    float: left;
+    padding: 15px 9px;
+    position: relative;
+}
+#main-right div.module > div {
+    border-left: 1px dotted #779EB1;
+    padding-left: 12px;
+}
+#main-right div.module a.newstitle {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.2em;
+}
+#row1 div.module {
+    width: 220px;
+}
+#row2 div.module {
+    width: 170px;
+}
+span.red {
+    color: #CC3333;
+}
+span.pro {
+    color: #003399;
+}
+#row1 div.module > div {
+}
+#row1 div.module > div {
+    border-right: 1px dotted #888888;
+    height: 150px;
+}
+#row1 div.module:last-child > div {
+    border-right-width: 0;
+}
+#row1 h1, #row2 h1 {
+    color: white;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+#row1 h1 span.yellow, #row2 h1 span.yellow {
+    color: yellow;
+}
+#row1 {
+    background: url("../images/row1bg.png") repeat-x scroll left top #097A97;
+    margin: 0;
+}
+#row1 p, #row1 li a, #row2 p, #row2 li a {
+    color: white;
+    font-size: 80%;
+}
+#row1 ul, #row2 ul {
+    list-style-position: inside;
+    padding-left: 4px;
+}
+#row2 {
+    background: url("../images/row2bg.png") repeat-x scroll left top #22485B;
+    margin: 0;
+}
+#feature {
+    background: url("../images/row2bg.png") repeat-x scroll left 270px #FFFFFF;
+    margin: 0;
+}
+#main {
+    background: url("../images/maintop.png") repeat-x scroll left top white;
+    padding-top: 10px;
+    overflow: hidden;  /* FROM WHMCS */
+}
+#main-wrapper {
+    background: url("../images/mainbottom.png") repeat-x scroll left bottom transparent;
+}
+#main-wrapper #main-content, #main-wrapper #main-left, #main-wrapper #main-right {
+    float: left;
+    overflow: visible;  /* FROM WHMCS */
+}
+#footer {
+    background: url("../images/footerbg.png") repeat-x scroll left top #333333;
+    color: white;
+    margin: 0;
+}
+#footer ul {
+    list-style-type: none;
+}
+#footer li {
+    float: left;
+    padding-left: 30px;
+}
+#footer li a {
+    color: white;
+    font-weight: bold;
+}
+#logo {
+    float: left;
+    width: 276px;
+}
+#logor {
+    height: 81px;
+    margin-left: 276px;
+}
+#tabmenu {
+    height: 23px;
+    padding-top: 56px;
+}
+#submenu {
+    height: 30px;
+}
+#foot {
+    background: url("../images/foot_r.jpg") no-repeat scroll right center transparent;
+    height: 13px;
+    line-height: 13px;
+}
+#botmenu {
+    background: url("../images/foot_l.jpg") no-repeat scroll left center transparent;
+}
+#botmenu div.module {
+    padding-left: 30px;
+    width: auto !important;
+}
+#leftcol {
+    float: left;
+    width: 622px;
+}
+#leftcol-inner {
+    float: left;
+    width: 99%;
+}
+#rightcol {
+    margin-left: 623px;
+    padding-top: 4px;
+    width: 311px;
+}
+#shadow {
+    background: url("../images/shadebot.gif") repeat-x scroll center top transparent;
+    height: 23px;
+    width: 954px;
+}
+#rightcol .module {
+    margin: 0 0 1em;
+    padding: 0;
+    position: relative;
+}
+#rightcol .module div div div div {
+    background: none repeat scroll 0 0 transparent;
+}
+#rightcol .module {
+    margin: 0 0 1em;
+    padding: 0;
+    position: relative;
+}
+#rightcol .module div div div div {
+    background: none repeat scroll 0 0 transparent;
+}
+#rightcol .module div {
+    margin: 0;
+    padding: 2.2em 0 0;
+}
+#rightcol .module div div {
+    margin: 0;
+    padding: 0 0 0 12px;
+}
+#rightcol .module div div div {
+    height: 1%;
+    padding: 5px 12px 12px 0;
+}
+#rightcol .module {
+    background: url("../images/blue-tr.jpg") no-repeat scroll right top transparent;
+}
+#rightcol .module p {
+    padding-top: 10px;
+}
+#rightcol .module div {
+    background: url("../images/blue-tl.jpg") no-repeat scroll left top transparent;
+    color: white;
+}
+#rightcol .module div div {
+    background: url("../images/blue-bl.jpg") no-repeat scroll left bottom transparent;
+}
+#rightcol .module div div div {
+    background: url("../images/blue-br.jpg") no-repeat scroll right bottom transparent;
+}
+#rightcol .module h3 {
+    color: #003399;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    left: 0.5em;
+    letter-spacing: -1px;
+    margin: 0;
+    padding: 0.17em 0 !important;
+    position: absolute;
+    text-align: left;
+    text-transform: lowercase;
+    top: 0.4em;
+    width: 100%;
+}
+.module-laptop {
+    margin: 0 0 1em;
+    padding: 0;
+    position: relative;
+}
+.module-laptop div div div div {
+    background: none repeat scroll 0 0 transparent;
+}
+.module-laptop div {
+    margin: 0;
+    padding: 2.2em 0 0;
+}
+.module-laptop div div {
+    margin: 0;
+    padding: 0 0 0 12px;
+}
+.module-laptop div div div {
+    height: 1%;
+    padding: 5px 12px 12px 0;
+}
+.module-laptop {
+    background: url("../images/laptop-tr.jpg") no-repeat scroll right top transparent;
+}
+.module-laptop p {
+    padding-top: 10px;
+}
+.module-laptop div {
+    background: url("../images/laptop-tl.jpg") no-repeat scroll left top transparent;
+    color: black;
+}
+.module-laptop div div {
+    background: url("../images/laptop-bl.jpg") no-repeat scroll left bottom transparent;
+}
+.module-laptop div div div {
+    background: url("../images/laptop-br.jpg") no-repeat scroll right bottom transparent;
+}
+.module-laptop h3 {
+    color: #FFFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    left: 0.5em;
+    letter-spacing: -1px;
+    margin: 0;
+    padding: 0.17em 0 !important;
+    position: absolute;
+    text-align: left;
+    text-transform: lowercase;
+    top: 0.4em;
+    width: 100%;
+}
+.module-laptop div div div div.contentpaneopen-laptop {
+    font-size: 110%;
+    margin: 0;
+    padding: 5px 0 0;
+}
+.module-laptop div div div div.contentheading-laptop {
+    margin: 0;
+    padding: 0;
+}
+.module-stop {
+    margin: 0 0 1em;
+    padding: 0;
+    position: relative;
+}
+.module-stop div div div div {
+    background: none repeat scroll 0 0 transparent;
+}
+.module-stop div {
+    margin: 0;
+    padding: 2.2em 0 0;
+}
+.module-stop div div {
+    margin: 0;
+    padding: 0 0 0 12px;
+}
+.module-stop div div div {
+    height: 1%;
+    padding: 5px 12px 12px 0;
+}
+.module-stop {
+    background: url("../images/stop-tr.jpg") no-repeat scroll right top transparent;
+}
+.module-stop p {
+    margin-left: 107px;
+    padding: 7px 0;
+    width: 181px;
+}
+.module-stop div {
+    background: url("../images/stop-tl.jpg") no-repeat scroll left top transparent;
+    color: black;
+}
+.module-stop div div {
+    background: url("../images/stop-bl.jpg") no-repeat scroll left bottom transparent;
+}
+.module-stop div div div {
+    background: url("../images/stop-br.jpg") no-repeat scroll right bottom transparent;
+}
+.module-stop h3 {
+    color: #003399;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    left: 0.5em;
+    letter-spacing: -1px;
+    margin: 0;
+    padding: 0.17em 0 !important;
+    position: absolute;
+    text-align: left;
+    text-transform: lowercase;
+    top: 0.4em;
+    width: 100%;
+}
+.module-cube {
+    margin: 0 0 1em;
+    padding: 0;
+    position: relative;
+}
+.module-cube div div div div {
+    background: none repeat scroll 0 0 transparent;
+}
+.module-cube {
+    margin: 0 0 1em;
+    padding: 0;
+    position: relative;
+}
+.module-cube div div div div {
+    background: none repeat scroll 0 0 transparent;
+}
+.module-cube div {
+    margin: 0;
+    padding: 2.2em 0 0;
+}
+.module-cube div div {
+    margin: 0;
+    padding: 0 0 0 12px;
+}
+.module-cube div div div {
+    height: 1%;
+    padding: 5px 12px 12px 0;
+}
+.module-cube {
+    background: url("../images/cube-tr.jpg") no-repeat scroll right top transparent;
+}
+.module-cube p {
+    padding-top: 10px;
+}
+.module-cube div {
+    background: url("../images/cube-tl.jpg") no-repeat scroll left top transparent;
+    color: black;
+}
+.module-cube div div {
+    background: url("../images/cube-bl.jpg") no-repeat scroll left bottom transparent;
+}
+.module-cube div div div {
+    background: url("../images/cube-br.jpg") no-repeat scroll right bottom transparent;
+}
+.module-cube h3 {
+    color: #FFFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    left: 0.5em;
+    letter-spacing: -1px;
+    margin: 0;
+    padding: 0.17em 0 !important;
+    position: absolute;
+    text-align: left;
+    text-transform: lowercase;
+    top: 0.4em;
+    width: 100%;
+}
+#main-left {
+    float: left;
+    width: 205px;
+}
+#lbody {
+}
+#lbody-inner {
+    float: right;
+    padding-top: 18px;
+    width: 720px;
+}
+#postm {
+    background: url("../images/postm.jpg") no-repeat scroll center bottom transparent;
+    padding-bottom: 184px;
+}
+#postm-inner {
+}
+#botmenu a {
+    background: url("../images/bota.gif") no-repeat scroll 100% 3px transparent;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 9px;
+    padding: 0 7px 0 5px;
+    text-transform: lowercase;
+}
+#botmenu a:hover {
+    color: orange;
+    text-decoration: none;
+}
+#protect {
+    height: 225px;
+    width: 622px;
+}
+#innerp {
+    margin-left: 231px;
+    padding-top: 110px;
+    width: 260px;
+}
+#innerp div.module {
+    color: white;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+a.dn-read_more:link {
+    background: url("../images/arrow.gif") no-repeat scroll 100% 20px transparent;
+    color: white;
+    display: block;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-top: 20px;
+    text-align: right;
+    text-decoration: none;
+}
+img {
+}
+img {
+    border: 0 none;
+}
+body {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #323232;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    height: 100%;
+    line-height: 140%;
+    margin: 0;
+    padding: 0;
+}
+a:link, a:visited {
+    color: #003399;
+    text-decoration: none;
+}
+a:hover {
+    color: #003399;
+    text-decoration: underline;
+}
+table.contentpaneopen {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+table.contentpaneopen td {
+    padding: 5px;
+}
+table.contentpaneopen td.componentheading {
+    padding-left: 4px;
+}
+table.contentpane {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+table.contentpane td {
+    margin: 0;
+    padding: 0;
+}
+table.contentpane td.componentheading {
+    padding-left: 4px;
+}
+div.componentheading, table.contentpaneopen td.contentheading, table.contentpaneopen td.componentheading {
+    color: #003399;
+    font-size: 1.5em;
+    padding-top: 15px;
+}
+table.contentpaneopen fieldset {
+    border-color: -moz-use-text-color -moz-use-text-color #EEEEEE;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+}
+.button {
+    background: none repeat scroll 0 0 #003399;
+    border: 0 double #CCCCCC;
+    color: #FFFFFF;
+    font-family: Arial,Hevlvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    height: 26px !important;
+    line-height: 18px !important;
+    margin: 1px;
+    padding: 0 5px;
+    text-align: center;
+    width: auto;
+}
+.inputbox {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 2px;
+}
+.contentcolumn {
+    padding-right: 5px;
+}
+.contentpagetitle {
+    color: #CCCCCC;
+    font-weight: normal;
+    text-align: left;
+}
+table.searchinto {
+    width: 100%;
+}
+table.searchintro td {
+    font-weight: bold;
+}
+table.moduletable {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    width: 100%;
+}
+div.moduletable {
+    margin-bottom: 2px;
+    padding: 0;
+}
+table.moduletable th, div.moduletable h3 {
+    background: url("../images/subhead_bg.png") repeat-x scroll 0 0 transparent;
+    color: #666666;
+    font-size: 10px;
+    font-weight: bold;
+    height: 21px;
+    line-height: 21px;
+    margin: 0 0 2px;
+    padding-left: 4px;
+    text-align: left;
+    text-transform: uppercase;
+}
+table.moduletable td {
+    font-size: 11px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+table.pollstableborder td {
+    padding: 2px;
+}
+.sectiontableheader {
+    background: none repeat scroll 0 0 #F0F0F0;
+    font-weight: bold;
+    padding: 4px;
+}
+.sectiontablefooter {
+}
+.sectiontableentry1 {
+}
+.sectiontableentry2 {
+}
+.createdate {
+    color: #999999;
+    font-size: 11px;
+    height: 15px;
+    padding-bottom: 10px;
+}
+.modifydate {
+    color: #999999;
+    font-size: 11px;
+    height: 15px;
+    padding-top: 10px;
+}
+table.contenttoc {
+    border: 1px solid #CCCCCC;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    padding: 2px;
+}
+table.contenttoc td {
+    padding: 2px;
+}
+table.contenttoc th {
+    background: url("../images/subhead_bg.png") repeat-x scroll 0 0 transparent;
+    color: #666666;
+    font-size: 10px;
+    font-weight: bold;
+    height: 21px;
+    padding-left: 4px;
+    padding-top: 2px;
+    text-align: left;
+    text-transform: uppercase;
+}
+a.mainlevel:link, a.mainlevel:visited {
+}
+a.mainlevel:hover {
+}
+a#active_menu.mainlevel {
+}
+a#active_menu.mainlevel:hover {
+}
+a.sublevel:link, a.sublevel:visited {
+    padding-right: 24px;
+}
+a.sublevel:hover {
+}
+a#active_menu.sublevel {
+}
+.highlight {
+    background-color: Yellow;
+    color: Blue;
+    padding: 0;
+}
+.code {
+    background-color: #DDDDDD;
+    border: 1px solid #BBBBBB;
+}
+form {
+    margin: 0;
+    padding: 0;
+}
+div.mosimage {
+}
+.mosimage {
+    margin: 5px;
+}
+.mosimage_caption {
+    font-size: 10px;
+    margin-top: 2px;
+    padding: 1px 2px;
+}
+span.article_seperator {
+    display: block;
+    height: 1em;
+}
+div.module-sidemenu {
+    padding: 10px;
+}
+div.module-sidemenu > div {
+    margin-bottom: 20px;
+}
+div.module-sidemenu ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+div.module-sidemenu ul#mainlevel {
+    background: url("../images/menubg.png") repeat-x scroll 50% 35% #0183B9;
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px;
+}
+div.module-sidemenu li.mainlevel_active, div.module-sidemenu li.mainlevel_current, div.module-sidemenu li.mainlevel {
+    border-bottom: 1px dotted #01ABDB;
+    display: block;
+    padding: 4px 15px;
+}
+div.module-sidemenu li:last-child {
+    border-bottom-width: 0;
+}
+div.module-sidemenu li a {
+    color: white;
+}
+div.module-sidemenu li a:hover {
+    color: orange;
+}
+div.module-sidemenu li.mainlevel_active, div.module-sidemenu li.mainlevel_current {
+    background: url("../images/chev-white.png") no-repeat scroll 100% 3px transparent;
+    color: orange;
+}
+div.module-sidemenu li.mainlevel_active a, div.module-sidemenu li.mainlevel_current a {
+    font-weight: bold;
+}
+div.module-sidemenu li.sublevel, div.module-sidemenu li.sublevel_current {
+    background: url("../images/dash-white.png") no-repeat scroll right -1px transparent;
+    font-size: 0.8em;
+    text-align: right;
+    text-transform: lowercase;
+}
+div.module-sidemenu li.sublevel_current a {
+    color: orange;
+}
