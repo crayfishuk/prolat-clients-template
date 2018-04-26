@@ -119,13 +119,16 @@
         </div>
     </div>
 
-    {if $showMarketingEmailOptIn}
-        <div class="marketing-email-optin">
-            <h4>{lang key='emailMarketing.joinOurMailingList'}</h4>
-            <p>{$marketingEmailOptInMessage}</p>
-            <input type="checkbox" name="marketingoptin" value="1"{if $marketingEmailOptIn} checked{/if} class="no-icheck toggle-switch-success" data-size="small" data-on-text="{lang key='yes'}" data-off-text="{lang key='no'}">
-        </div>
-    {/if}
+        {if $showMarketingEmailOptIn}
+            <div class="marketing-email-optin">
+		<h4>{lang key='emailMarketing.joinOurMailingList'}</h4>
+                <p>We would like to send you occasional news, hints & tips, and special offers by email. Hints & Tips are really useful to ensure you get the most out of the services you have.</p>
+                <p>Emails from us will only be about our Products and Services, please see our <a href="https://www.prolateral.com/privacy">privacy statement</a> for more information.</p>
+                <p>To join our mailing list, simply tick the box below. You can unsubscribe at any time.</p>
+                <p>{$marketingEmailOptInMessage}</p>
+                <input type="checkbox" name="marketingoptin" value="1"{if $marketingEmailOptIn} checked{/if} class="no-icheck toggle-switch-success" data-size="small" data-on-text="{lang key='yes'}" data-off-text="{lang key='no'}">
+            </div>
+        {/if}
 
 
     <div class="form-group text-center">
